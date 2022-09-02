@@ -3,7 +3,8 @@
 const Telegram = require('telegram-node-bot')
 const TelegramBaseController = Telegram.TelegramBaseController;
 const TextCommand = Telegram.TextCommand
-const token = '5046768957:AAG_MPRgVnv7tGzbbGqM3Gb1S0yNR6Zq10Q'
+//вставьте токен вашего бота
+const token = ''
 const tg = new Telegram.Telegram(token, { workers: 1})
 const findAbonent = require('./handler/function')
 
